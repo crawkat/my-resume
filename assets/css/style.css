@@ -343,6 +343,30 @@ footer .cv-pdf i:hover{
     margin-bottom: 30px;
 }
 
+/*--------------------contact-------------*/
+
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;  /*creates space for the form to breathe----*/
+    margin-bottom: 20px;  /*creates space for the form to breathe----*/
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;  /*this centers your content----*/
+    max-width: 70%; /*so the form doen't fill the width of the page----*/
+    
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom:20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
+
 /*--------------------media queries-------------*/
 
 @media(min-width: 992px) {
@@ -351,4 +375,13 @@ footer .cv-pdf i:hover{
         float: none;
         display: table-cell;
     }
+    
+    .center-form{
+    padding-top: 30px;
+    min-height: 240px; /*---for smaller devices---*/
+    margin: 0 auto;  /*this centers your content----*/
+    max-width: 50%; /*reduced for smaller screens----*/
+    }
+    
+    
 }
