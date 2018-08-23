@@ -124,47 +124,47 @@ header{
 }
 
 #nav{
-    margin:0;
+    margin:0;   /*lines up the edge of the nav with above column*/
 }
 
 #nav li{
-    padding:0;
+    padding:0; /* removes visible edges when in the hover state */
 }
 
-.menuitem{
+.menuitem{   /* targets the nav backgrounds*/
     height:120px;
     text-align: center;
     padding:0;
 }
 
-.menuitem a{
+.menuitem a{   /* the clickable area */
     width: 100%;
-    text-decoration: none;
+    text-decoration: none; /*removes link underline*/
     color: #ffffff;
     height:120px;
 }
 
-.menuitem a i{
-    padding-top: 22px;
-    display: block;
+.menuitem a i{  /* targets the fontawesome icons*/
+    padding-top: 22px;  /*moves dow the div*/
+    display: block;  /* it will occupy its paretn container*/
     color: #ffffff;
     font-size:26px;
 }
 
-.menuitem span{
+.menuitem span{  /* actual navigation text*/
     display: block;
     width: 100%;
-    padding-top:5px;
+    padding-top:5px;  /*pushing down a bit further from above icon */
     text-align:center;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 2px;  /* kerning*/
 }
 
 /*---------------hover--------*/
 
-.hvr-sweep-to-bottom:before{
+.hvr-sweep-to-bottom:before{  /* removes default blue colour and adds an black tranparency */
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
